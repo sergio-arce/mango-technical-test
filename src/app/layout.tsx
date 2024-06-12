@@ -17,7 +17,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {children}
+        <header>
+          <h1 className="title">Mango Technical Test</h1>
+        </header>
+        <main className="main">
+          {children}
+        </main>
       </body>
     </html>
   );

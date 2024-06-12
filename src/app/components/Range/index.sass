@@ -1,0 +1,52 @@
+.range 
+  display: flex
+  align-items: center
+  margin: 3rem 0
+
+  &__container 
+    position: relative
+    width: 300px
+    height: 60px
+
+  &__line 
+    position: absolute
+    top: 50%
+    left: 0
+    right: 0
+    height: 0.5px
+    background-color: $color-secondary
+    transform: translateY(-50%)
+
+    &--active 
+      position: absolute
+      top: 50%
+      height: 0.5px
+      background-color: $color-primary
+      transform: translateY(-50%)
+
+  &__bullet 
+    position: absolute
+    top: 50%
+    width: 10px
+    height: 10px
+    background-color: $color-primary
+    border-radius: 50%
+    transform: translate(-50%, -50%)
+    cursor: pointer
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease
+
+  &__bullet:hover 
+    width: 12px
+    height: 12px
+    background-color: $color-primary
+
+  &__price
+    display: flex
+    justify-content: space-between
+    font-size: 0.9rem
+    line-height: 1.25rem
+    font-weight: 300
+
+
+
+
