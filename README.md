@@ -41,3 +41,46 @@ Provide a localhost:8080/exercise2 route with the following:
 #### Extra:
 - You can use any mocked way for provide services data.
 - You can give us your solution in any way. It's up to you!
+
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/) (version 14.x or later)
+- [Pnpm](https://pnpm.io/es/)
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+    ```bash
+    git clone https://github.com/sergio-arce/mango-technical-test
+    cd mango-technical-test
+    ```
+
+2. Install the project dependencies:
+
+    ```bash
+    pnpm install
+    ```
+
+### Running the Application
+
+To start the application, run:
+
+```bash
+pnpm run dev
+```
+
+### Running the test
+
+To start the application, run:
+
+```bash
+pnpm test
+pnpm coverage
+```
+ 
