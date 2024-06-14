@@ -49,7 +49,7 @@ Provide a localhost:8080/exercise2 route with the following:
 
 Ensure you have the following installed on your system:
 
-- [Node.js](https://nodejs.org/) (version 14.x or later)
+- [Node.js](https://nodejs.org/) (version 20.x or later)
 - [Pnpm](https://pnpm.io/es/)
 
 ### Installation
