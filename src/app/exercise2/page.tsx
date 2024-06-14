@@ -10,7 +10,6 @@ export default function Exercise2() {
 
   const { data, loading, error } = useFetchPrices<RangePrices>(`${_URL_}range-prices`)
 
-  console.log({ data })
   return <>
     <h2>Exercise 2</h2>
     {loading && <Loading />}
